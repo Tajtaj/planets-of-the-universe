@@ -1,0 +1,114 @@
+<!doctype html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Twitter Swiss Army Knife</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+		<link rel="stylesheet" href="../css/bttop.css">
+	<link rel="stylesheet" id="font-awesome-css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen">
+
+
+</head>
+<body>
+	
+	<div id="header">
+	<h1 id="logo">Twitter Swiss Army Knife</h1>
+
+	</div>
+
+	<div class="wrap">
+		
+		<div class="leftpanel">
+			<a href="../index.html" >About TSAK</a>
+			<a href="setup.html" >SETUP</a>
+			<a href="commands.html" class="current">TSAK Commands</a>
+			<a href="quickstart.html">QUICK START</a>
+			<a href="" class="disabled">EXAMPLE TUTORIALS</a>
+		</div>
+		<div class="main_contents">
+			<div class="main_heading">
+				<div>
+					<p>Dump User TimeLine</p>
+				</div>
+				<div class="quicklinks">
+					<a href="commands.html">Commands</a> | <a href="searchtweets.html"> Search Tweets</a>
+				</div>
+ 				
+ 				<p class="tableofcntnt">Table of Contents</p>
+				
+				<ul class="maincntnts">
+					<li><a href="searchtweets.html">Search Tweets</a>
+
+						<ul class="maincntnts">
+							<li><a href="#1">Search by Keywords</a></li>
+						</ul>
+
+					</li>
+				</ul>
+				
+				<br><br>
+
+
+				<p class="ftnnames" id="1">Search by Keywords:</p>
+					<div class="ftns_desp code_decp">
+						<h4>LONG FORMAT</h4>
+						<p>Reads Twitter credentials directly from command line arguments.</p>
+					</div>
+					<div class="ftns_def">
+						<code>
+							java -jar TSAK.jar tsak -consumerKey=XXXX -consumerSecret=XXXX -accessToken=XXXX -accessSecret=XXXX dumpTweets -keywords "KEY words" -o output.txt
+						</code>
+					</div>
+
+					<div class="ftns_desp code_decp">
+						<h4>SHORT FORMAT</h4>
+						<p>Reads Twitter credentials from tsak.properties file as pointed by TSAK_CONF ENV variable.</p>
+					</div>
+
+					<div class="ftns_def">
+						
+						<code>
+							java -jar TSAK.jar tsak dumpTweets -keywords "KEY words" -o output.txt
+						</code>
+					</div>
+					
+					<div class="ftns_desp">
+						<h4>Arguments:</h4>
+
+						<h4>XXXX:</h4>
+						<p>Twitter APP and User Keys. Please refer to <b>SETUP</b> page to see how to generate these four keys.</p>
+
+						<h4>-keywords:</h4>
+						<p>Search tweets containing these keywords</p>
+
+						<h4>-o:</h4>
+						<p>Name of the output file to which the searched Tweets will be dumped.</p>
+
+						<h4>Description:</h4>
+						<p>Based on provided Credentials, this command dumps searched Tweets containing the provided keywords to a file. The number of dumped Tweets are subjected to Twitter rate limits and cannot exceeds 2700/15min.</p>
+					
+					</div>
+
+					<br><br><br>
+
+			</div>
+		</div>
+	</div>
+
+
+	
+<div class="scroll-top-wrapper ">
+<span class="scroll-top-inner">
+<i class="fa fa-2x fa-arrow-circle-up"></i>
+</span>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<script type="text/javascript" src="../js/script.js"></script>
+
+</script>
+</body>
+</html>
