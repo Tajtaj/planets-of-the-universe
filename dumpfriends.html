@@ -1,36 +1,17 @@
-<!doctype html>
-
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>Twitter Swiss Army Knife</title>
-
-	<link rel="stylesheet" href="../css/style.css">
-		<link rel="stylesheet" href="../css/bttop.css">
-	<link rel="stylesheet" id="font-awesome-css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen">
-
-
-</head>
-<body>
-	
-	<div id="header">
-	<h1 id="logo">Twitter Swiss Army Knife</h1>
-
-	</div>
+---
+layout: default
+title: Dump Friends List
+---
 
 	<div class="wrap">
 		
 		<div class="leftpanel">
-			<a href="../index.html" >About TSAK</a>
-			<a href="setup.html" >SETUP</a>
-			<a href="commands.html" class="current">TSAK Commands</a>
-			<a href="quickstart.html">QUICK START</a>
-			<a href="" class="disabled">EXAMPLE TUTORIALS</a>
+		   {% include left-sidebar.html %}
 		</div>
 		<div class="main_contents">
 			<div class="main_heading">
 				<div>
-					<p>Dump Friends List</p>
+					<p>{{page.title}}</p>
 				</div>
 				<div class="quicklinks">
 					<a href="commands.html">Commands</a> | <a href="dumpfriends.html"> Dump Friends List</a>
@@ -153,7 +134,3 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
 <script type="text/javascript" src="../js/script.js"></script>
-
-</script>
-</body>
-</html>
