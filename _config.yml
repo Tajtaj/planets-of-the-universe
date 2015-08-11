@@ -1,6 +1,5 @@
 # Site settings
 title: Twitter Swiss Army Knife
-markdown: redcarpet
 baseurl: /planets-of-the-universe
 exclude: ['README.md']
 # Build settings
