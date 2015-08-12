@@ -21,9 +21,12 @@ offset = element.offset();
 offsetTop = offset.top;
 $('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
 }
-// Adding active class
-$('leftpanel a').click(function(){
-    $('leftpanel a').removeClass("current");
+// Adding ready method
+$(document).ready(function(){
+	// Adding active class
+    $('.leftpanel a').click(function(){
+    $('.leftpanel a').removeClass("current");
     $(this).addClass("current");
 	alert("Marking..");
+});
 }); 
