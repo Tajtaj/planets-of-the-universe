@@ -21,12 +21,13 @@ offset = element.offset();
 offsetTop = offset.top;
 $('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
 }
-// Adding ready method
-$(document).ready(function(){
-	// Adding active class
-    $('.leftpanel a').click(function(){
-    $('.leftpanel a').removeClass("current");
-    $(this).addClass("current");
-	alert("Marking..");
+
+// Adding active class
+$(function() {
+     var pgurl = window.location.href.substr(window.location.href
+.lastIndexOf("/")+1);
+     $(".leftpanel a").each(function(){
+          if($(this).attr("href") == pgurl || $(this).attr("href") == '' )
+          $(this).addClass("current");
+     })
 });
-}); 
