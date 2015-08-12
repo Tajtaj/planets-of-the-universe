@@ -25,7 +25,7 @@ $('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
 $(document).ready(function(){
 	// Adding active class
     $('leftpanel a').click(function(){
-    $('a').removeClass("current");
+    $('leftpanel a').removeClass("current");
     $(this).addClass("current");
 	alert("Marking..");
 });
