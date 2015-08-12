@@ -23,11 +23,15 @@ $('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
 }
 
 // Adding active class
-$(function() {
-     var pgurl = window.location.href.substr(window.location.href
-.lastIndexOf("/")+1);
-     $(".leftpanel a").each(function(){
-          if($(this).attr("href") == pgurl || $(this).attr("href") == '' )
-          $(this).addClass("current");
-     });
-});
+
+function setActive() {
+  aObj = document.getElementById('left-nav').getElementsByTagName('a');
+  for(i=0;i<aObj.length;i++) { 
+    if(document.location.href.indexOf(aObj[i].href)>=0) {
+      aObj[i].className='current';
+    }
+  }
+}
+
+window.onload = setActive;
+
