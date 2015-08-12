@@ -27,5 +27,6 @@ $(document).ready(function(){
     $('leftpanel a').click(function(){
     $('a').removeClass("current");
     $(this).addClass("current");
+	alert("Marking..");
 });
 }); 
