@@ -29,5 +29,5 @@ $(function() {
      $(".leftpanel a").each(function(){
           if($(this).attr("href") == pgurl || $(this).attr("href") == '' )
           $(this).addClass("current");
-     })
+     });
 });
