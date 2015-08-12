@@ -23,7 +23,13 @@ $('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
 }
 
 // Adding active class
-
+jQuery.fn.extend({
+    live: function (event, callback) {
+       if (this.selector) {            
+            jQuery(document).on(event, this.selector, callback);
+        }
+    }
+});
 $("#left-nav a").live("click", function(){
   $("#left-nav a").removeClass("current");
   $(this).addClass("current")
