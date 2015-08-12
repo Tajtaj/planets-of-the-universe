@@ -23,7 +23,14 @@ $('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
 }
 
 // Adding active class
-$(function() {
-  $('#left-nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+(function() {
+    var nav = document.getElementById('left-nav'),
+        anchor = nav.getElementsByTagName('a'),
+        current = window.location.pathname.split('/')[1];
+        for (var i = 0; i < anchor.length; i++) {
+        if(anchor[i].href == current) {
+            anchor[i].className = "active";
+        }
+    }
 });
 
