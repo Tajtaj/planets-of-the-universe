@@ -4,3 +4,7 @@ body{
 	padding:0;
 	font: normal 100%/1.4 Gorgia, serif;
 }
+.current {
+	background-color:#000531;
+	color:#ffffff;
+}
