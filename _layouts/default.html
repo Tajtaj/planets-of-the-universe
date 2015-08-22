@@ -8,20 +8,21 @@
 	</head>
 
   <body>
-    <header>
-	  <h1>Planets of the Universe.</h1>
-	  {% include nav.html navclass='nav-top' %}
-	</header>
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+	<div class="container">
+		<header>
+		  <h1>Planets of the Universe.</h1>
+		  {% include nav.html navclass='nav-top' %}
+		</header>
+		<div class="page-content">
+		  <div class="wrapper">
+			{{ content }}
+		  </div>
+		</div>
 
-    <div class="footer">
-        {% include nav.html navclass='nav-bottom' %}
-        Copyright &copy; {{ site.time | date: '%Y' }} 
-    </div>
-
+		<div class="footer">
+			{% include nav.html navclass='nav-bottom' %}
+			Copyright &copy; {{ site.time | date: '%Y' }} 
+		</div>
+	</div>
   </body>
 </html>
