@@ -2,10 +2,9 @@
 layout: default
 ---
 	<h1>Planets</h1>
-	<ul>
-	{% for planet in site.pages %}
-		{% if planet.type == 'dwarf' %}
-			<li>{{planet.title}}</li>
-		{% endif %}
-	{% endfor %}
-	</ul>
+	<h3>Dwarf</h3>
+	{ include planet-list.html }
+	<h3>Terrestrial</h3>
+	{ include planet-list.html }
+	<h3>Gas giant</h3>
+	{ include planet-list.html }

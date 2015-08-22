@@ -1,0 +1,7 @@
+<ul>
+{% for planet in site.pages %}
+	{% if planet.type == 'dwarf' %}
+		<li>{{planet.title}}</li>
+	{% endif %}
+{% endfor %}
+</ul>
