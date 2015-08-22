@@ -26,8 +26,15 @@ body{
 	font-size:25px;
 }
 .footer{
-	text-align:center;
+	border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
 }
 .nav li a{
 	padding:5px;
+}
+.nav.nav-bottom{
+	margin-top:10px;
 }
