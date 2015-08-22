@@ -1,0 +1,13 @@
+---
+layout: default
+---
+	<strong>Planets</strong>
+	<nav>
+		<ol>
+			{% for planet in site.categories.planet-type %}
+				<li><a href="{{site.baseurl}}/planets/{{planet.folder}}/">{{planet.title}}</a></li>
+			{% endfor %}
+		</ol>
+	</nav>
+	{{content}}
+	
