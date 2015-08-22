@@ -8,3 +8,13 @@ body{
 	background-color:#000531;
 	color:#ffffff;
 }
+.nav {
+	margin:0;
+	padding:0;
+}
+.nav > li {
+	display:block;
+}
+.nav-top{
+	font-size:18px;
+}

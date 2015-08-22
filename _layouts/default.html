@@ -10,7 +10,7 @@
   <body>
     <header>
 	  <h1>Planets of the Universe.</h1>
-	  {% include nav.html %}
+	  {% include nav.html navclass='nav-top' %}
 	</header>
     <div class="page-content">
       <div class="wrapper">
@@ -19,7 +19,7 @@
     </div>
 
     <div class="footer">
-        {% include nav.html %}
+        {% include nav.html navclass='nav-bottom' %}
         Copyright &copy; {{ site.time | date: '%Y' }} 
     </div>
 
