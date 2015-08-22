@@ -3,7 +3,7 @@ layout: news-article
 title: "Hello, User!"
 date: 2015-05-25
 meta: Future mars explorers. It is news number first.
-source: http:www.google.com
+source: http://www.google.com
 category: news
 ---
 Hi, thanks for viewing my theme! Feel free to edit it in any way you want, just be cool and leave the necessary credits somewhere visible. If you could star the repository, that'd be pretty cool as well.

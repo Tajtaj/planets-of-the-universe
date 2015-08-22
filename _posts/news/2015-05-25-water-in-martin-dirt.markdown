@@ -3,7 +3,7 @@ layout: news-article
 title: "Formatting Samples"
 date: 2015-05-25
 meta: It is news number second.
-source: http:www.google.com
+source: http://www.yahoo.com
 category: news
 ---
 
