@@ -28,6 +28,6 @@ body{
 .footer{
 	text-align:center;
 }
-.nav li{
-	border:1px solid red;
+.nav li a{
+	padding:5px;
 }
