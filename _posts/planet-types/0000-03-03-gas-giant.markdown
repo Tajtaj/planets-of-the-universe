@@ -1,6 +1,6 @@
 ---
 title: Gas giant
 category: planet-type
-folder: gas giant
+folder: gas-giant
 ---
 It is Gas giant.

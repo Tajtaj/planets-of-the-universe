@@ -1,6 +1,6 @@
 ---
-title: Terristerial
+title: Terrestrial
 category: planet-type
-folder: terristerial
+folder: terrestrial
 ---
-It is Terristerial.
+It is Terrestrial.
