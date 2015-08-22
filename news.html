@@ -1,5 +1,14 @@
 ---
 layout: default
-title: About TSAK
 ---
-<h1>News </h1>
+<div class="news">
+	<h1>News</h1>
+    <ul>
+	    {% for news in site.posts %}
+		<li>
+			<a href=""></a>
+			<p></p>
+		</li>
+		{% endfor %}
+	</ul>
+</div>
