@@ -2,4 +2,13 @@
 layout: default
 title: About TSAK
 ---
-<h1>This is home page.</h1>
+	<h1>Planets of the Universe.</h1>
+	<h3>Recently discovered planets.</h3>
+    <ul>
+	    {% for news in site.categories.recently-discovered %}
+		<li>
+			<a href="">{{news.title}}</a>
+			<p>{{news.meta}}</p>
+		</li>
+		{% endfor %}
+	</ul>
