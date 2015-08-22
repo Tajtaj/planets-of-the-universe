@@ -4,6 +4,8 @@ layout: default
 	<h1>Planets</h1>
 	<ul>
 	{% for planet in site.pages %}
-		<li>{{planet.title}}</li>
+		{% if planet.type == 'dwarf' %}
+			<li>{{planet.title}}</li>
+		{% endif %}
 	{% endfor %}
 	</ul>
