@@ -6,6 +6,7 @@ layout: default
 	<ol>
 		{% for planet in site.categories.planet-type %}
 			<li><a href="#">{{planet.title}}</a></li>
+			<p>{{planet.content}}</p>
 		{% endfor %}
 	</ol>
 	<h3>Recently discovered planets.</h3>
