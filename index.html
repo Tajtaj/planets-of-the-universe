@@ -2,6 +2,10 @@
 layout: default
 ---
 	<h1>Planets of the Universe.</h1>
+	<h3>Types of planets</h3>
+	{% for planet in site.categories.planet-type %}
+	{{planet.title}}
+	{% endfor %}
 	<h3>Recently discovered planets.</h3>
     <ul>
 	    {% for news in site.categories.recently-discovered %}

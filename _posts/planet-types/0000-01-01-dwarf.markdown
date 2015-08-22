@@ -1,0 +1,6 @@
+---
+title: Dwarf
+category: planet-type
+folder: dwarf
+---
+It is Dwarf.
