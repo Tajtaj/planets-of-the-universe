@@ -6,8 +6,8 @@ layout: default
     <ul>
 	    {% for news in site.posts %}
 		<li>
-			<a href=""></a>
-			<p></p>
+			<a href="">{{news.title}}</a>
+			<p>{{news.meta}}</p>
 		</li>
 		{% endfor %}
 	</ul>
