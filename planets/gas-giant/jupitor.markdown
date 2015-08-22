@@ -2,6 +2,6 @@
 layout: news-article
 title: Jupitor
 meta: Jupitor is large
-type: jupitor
+type: gas-giant
 ---
 Hell Jupitor.
