@@ -1,7 +1,8 @@
 ---
 layout: news-article
-title: Jupitor
-meta: Jupitor is large
+title: Jupiter
+meta: Jupiter is large
 type: gas-giant
+image: jupiter.jpg
 ---
 Hell Jupitor.
