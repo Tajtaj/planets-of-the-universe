@@ -1,5 +1,5 @@
 ---
-layout: news-article
+layout: planet
 title: Pluto
 meta: Pluto is large
 type: dwarf

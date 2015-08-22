@@ -1,5 +1,5 @@
 ---
-layout: news-article
+layout: planet
 title: Mars
 meta: Mars is large
 type: terrestrial
