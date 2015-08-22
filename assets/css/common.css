@@ -13,7 +13,7 @@ body{
 	padding:0;
 }
 .nav > li {
-	display:block;
+	display:inline-block;
 }
 .nav-top{
 	font-size:18px;
