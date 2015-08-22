@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: news-article
 title: "Formatting Samples"
 date: 2015-05-25
 meta: It is news number second.

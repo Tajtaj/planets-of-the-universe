@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: news-article
 title: "Hello, User!"
 date: 2015-05-25
 meta: Future mars explorers. It is news number first.
