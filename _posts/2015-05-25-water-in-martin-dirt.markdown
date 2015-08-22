@@ -2,7 +2,7 @@
 layout: news
 title: "Formatting Samples"
 date: 2015-05-25
-meta: Future mars explorers.
+meta: It is news number second.
 source: http:www.google.com
 category: news
 ---

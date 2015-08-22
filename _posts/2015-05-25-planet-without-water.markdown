@@ -2,7 +2,7 @@
 layout: news
 title: "Hello, User!"
 date: 2015-05-25
-meta: Future mars explorers.
+meta: Future mars explorers. It is news number first.
 source: http:www.google.com
 category: news
 ---
