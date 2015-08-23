@@ -44,3 +44,6 @@ body{
 	background-size:cover;
 	color:#ffffff;
 }
+.masthead-planets{
+	background:url("../images/header2.jpg");
+}
