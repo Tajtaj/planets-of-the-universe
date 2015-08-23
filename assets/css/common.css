@@ -38,3 +38,8 @@ body{
 .nav.nav-bottom{
 	margin-bottom:10px;
 }
+.masthead{
+	padding:1em;
+	background:#000531 url("../assets/images/header1.jpg") no-repeat center center;
+	background-size:cover;
+}
