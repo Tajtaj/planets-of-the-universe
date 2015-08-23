@@ -6,4 +6,8 @@
   {% for post in site.posts %}
 	{% include sitemap-entry.xml entry=post %}
   {% endfor %}
+  
+  {% for page in site.pages %}
+	{% include sitemap-entry.xml entry=page %}
+  {% endfor %}
 </urlset>
