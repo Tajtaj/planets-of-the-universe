@@ -40,6 +40,6 @@ body{
 }
 .masthead{
 	padding:1em;
-	background:#000531 url("../assets/images/header1.jpg") no-repeat center center;
+	background:#000531 url("../images/header1.jpg") no-repeat center center;
 	background-size:cover;
 }
