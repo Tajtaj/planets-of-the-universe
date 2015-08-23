@@ -52,88 +52,98 @@
   
   
   
-	<url>
+	
+		<url>
 	<loc>http://algonquin-design.github.io/index.html</loc>
 	
 	
 </url>
 
+	
   
-	<url>
+	
+		<url>
 	<loc>http://algonquin-design.github.io/planets/dwarf/index.html</loc>
 	
 	
 </url>
 
+	
   
-	<url>
+	
+		<url>
 	<loc>http://algonquin-design.github.io/planets/gas-giant/index.html</loc>
 	
 	
 </url>
 
+	
   
-	<url>
+	
+		<url>
 	<loc>http://algonquin-design.github.io/planets/terrestrial/index.html</loc>
 	
 	
 </url>
 
+	
   
-	<url>
+	
+		<url>
 	<loc>http://algonquin-design.github.io/planets/index.html</loc>
 	
 	
 </url>
 
+	
   
-	<url>
+	
+		<url>
 	<loc>http://algonquin-design.github.io/planets/gas-giant/jupitor.html</loc>
 	
 	
 </url>
 
-  
-	<url>
-	<loc>http://algonquin-design.github.io/css/main.css</loc>
 	
-	
-</url>
-
   
-	<url>
+	
+  
+	
+		<url>
 	<loc>http://algonquin-design.github.io/planets/terrestrial/mars.html</loc>
 	
 	
 </url>
 
+	
   
-	<url>
+	
+		<url>
 	<loc>http://algonquin-design.github.io/news.html</loc>
 	
 	
 </url>
 
+	
   
-	<url>
+	
+		<url>
 	<loc>http://algonquin-design.github.io/planets/dwarf/pluto.html</loc>
 	
 	
 </url>
 
+	
   
-	<url>
+	
+		<url>
 	<loc>http://algonquin-design.github.io/recently-discovered.html</loc>
 	
 	
 </url>
 
+	
   
-	<url>
-	<loc>http://algonquin-design.github.io/sitemap.xml</loc>
 	
-	
-</url>
-
   
 </urlset>
