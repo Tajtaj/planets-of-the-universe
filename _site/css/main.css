@@ -11,6 +11,23 @@ body{
     padding: 10px;
     width: 960px;
 }
+.footer{
+	border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.masthead{
+	padding:1em;
+	background:#000531 url("../assets/images/header1.jpg") no-repeat center center;
+	background-size:cover;
+	color:#ffffff;
+}
+.masthead-planets{
+	background:url("../assets/images/header2.jpg");
+}
 .current {
 	background-color:#000531;
 	color:#ffffff;
@@ -25,25 +42,9 @@ body{
 .nav-top{
 	font-size:25px;
 }
-.footer{
-	border-bottom: 1px solid #dddddd;
-    border-top: 1px solid #dddddd;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    text-align: center;
-}
 .nav li a{
 	padding:5px;
 }
 .nav.nav-bottom{
 	margin-bottom:10px;
-}
-.masthead{
-	padding:1em;
-	background:#000531 url("../images/header1.jpg") no-repeat center center;
-	background-size:cover;
-	color:#ffffff;
-}
-.masthead-planets{
-	background:url("../images/header2.jpg");
 }
