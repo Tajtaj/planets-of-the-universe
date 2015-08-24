@@ -6,3 +6,4 @@ exclude: ['README.md']
 markdown: rdiscount
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
 permalink: pretty
+paginate: 3
